@@ -1,0 +1,141 @@
+.Seccion-1{
+    margin-top:71px ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.Seccion-1 h1{
+    color: aliceblue;
+    font-size: 4rem;
+}
+
+.Seccion-1 p{
+    color: aliceblue;
+}
+
+.Seccion-1 h4{
+    color: aliceblue;
+}
+
+.Seccion-1-cont{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+
+    
+}
+
+.Opcion{
+    display: flex;
+    gap: 20px;
+    place-items: center;
+
+}
+
+
+.Img-video img{
+    width: 30px;
+    border-radius: 100px;
+}
+
+
+
+.Union{
+    display: flex;
+    place-items: center;
+    gap: 5px;
+    transition: 300ms;
+
+}
+
+.Union:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+.Img-Seccion1{
+    place-items: center;
+    margin: 50px 0px 50px 0px;
+    position: relative;
+    overflow: visible;
+    border: 10px solid white;
+    width: 350px;
+    height: 400px;
+    bottom: -110px;
+    background: linear-gradient(to bottom right,rgb(141, 141, 225),rgb(141, 141, 225),rgb(102, 32, 194));
+    border-radius: 100px 100px 30px 30px;
+    /* Aqui va la sombra */
+    -webkit-box-shadow: 1px -1px 49px 0px rgba(94,0,94,1);
+    -moz-box-shadow: 1px -1px 49px 0px rgba(94,0,94,1);
+    box-shadow: 1px -1px 49px 0px rgba(94,0,94,1);
+    
+}
+
+.Chica-chocolatee{
+    position: absolute;
+    bottom: 0px;
+    right: -24px;
+    width: 370px;
+    height: 500px;
+}
+
+
+
+.Apoyo{
+    background-color: #DCDCDC;
+    display: flex;
+    gap: 50px;
+    padding: 40px 100px 40px 100px;
+    color: gray;
+}
+
+.Flex{
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.Flex-2{
+    display: flex;
+    gap: 10px;
+    place-self: center;
+}
+
+.Emenson{
+    border: 1px solid;
+    padding: 10px;
+    place-self:center;
+    border-radius: 50%;
+}
+
+
+.Herbalife{
+    border: 1px solid;
+    padding: 10px;
+    place-self:center;
+    border-radius: 50%;
+}
+
+.Little{
+    font-size: 0.7rem;
+    color: gray;
+}
+
+
+.Seccion-1 div button{
+    background: linear-gradient(to left,gold,rgb(255, 248, 52));
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 300ms;
+}
+
+
+.Seccion-1 div button:hover{
+    background: linear-gradient(to left,gold,rgb(255, 248, 52));
+    transform: scale(1.1);
+}

@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+body{
+    margin: 0;
+
+}
+
+
+
+.Juntar{
+    background: radial-gradient(circle at bottom right,white,rgb(149, 0, 203)60%);
+}
+
+/* Aqui entramos en la edicion de el header */
+
+.Encabezado{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 100px 0px 100px;
+
+
+}
+
+.Navegacion ul{
+    display: flex;
+    gap:20px;
+    list-style-type: none;
+    flex-wrap: wrap;
+    color: white;
+}
+
+
+.Navegacion ul li{
+    transition: 300ms;
+}
+
+
+.Navegacion ul li:hover{
+    transform: scale(1.4);
+    color: gold ;
+    cursor: pointer;
+}
+
+
+
+.Logo{
+    display: flex;
+    place-items: center;
+}
+
+
+
+.Logo h1{
+    color: gold;
+    transition: 300ms;
+}
+
+.Logo h1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+.Logotipe{
+    display: flex;
+    align-items: end;
+
+    padding: 5px;
+}
+
+.Logotipe img{
+    width: 15px;
+}
+
+span{
+    color: gold;
+}
+
+
+.Encabezado button{
+    background: linear-gradient(to left,gold,rgb(255, 248, 52));
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 300ms;
+}
+
+
+button:hover{
+    background: linear-gradient(to left,gold,rgb(255, 248, 52));
+    transform: scale(1.1);
+}
+
+
+button:hover{
+    cursor: pointer;
+}

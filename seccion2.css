@@ -1,0 +1,108 @@
+
+.Comodin{
+    display: flex;
+    gap:10px;
+}
+
+.Comodin h4{
+    color: #9932cc;
+}
+
+.Corona{
+
+    place-self: center;
+
+}
+
+.Corona img{
+    width: 30px;
+    border-radius: 100px;
+}
+
+.Menu{
+
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 50px;
+    background: radial-gradient(circle at top left,rgba(186, 87, 236, 0.669),rgb(149, 0, 203)50%);
+    padding: 20px;
+    font-size: 1.5rem;
+    
+}
+
+.Menu h5{
+    color: aliceblue;
+}
+
+.Model{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.Model p{
+    color: rgb(197, 197, 197);
+}
+
+
+
+/* Aqui voy a insertar imagenes */
+.sombrero{
+    width: 30px;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+
+.Timbre{
+    width: 30px;
+    border-radius: 100px;
+    margin-top: 30px;
+
+}
+
+.Cubiertos{
+    width: 30px;
+    border-radius: 100px;
+    margin-top: 30px;
+
+}
+
+.Escudo-estrella{
+    border-radius: 100px;
+    width: 30px;
+    margin-top: 30px;
+
+}
+
+
+
+.Aling{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+
+
+.Seccion-2{
+    margin-top: 70px;
+    padding: 40px 100px 0px 100px;
+}
+
+
+
+
+.Model{
+    transition: 300ms;
+}
+
+.Model:hover{
+    transform: scale(1.2);
+    color: gold;
+    cursor: pointer;
+}

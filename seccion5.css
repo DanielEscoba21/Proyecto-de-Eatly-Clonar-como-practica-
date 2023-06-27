@@ -1,0 +1,133 @@
+
+.Seccion-5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 250px;
+    align-content: center;
+    text-align: center;
+    margin: 70px 100px 0px 100px;
+
+}
+
+.Texto-Seccion5 h4,p{
+    font-size: 1.2rem;
+}
+
+
+.Flexing h4{
+    color: #9932CC;
+    font-size: 1.5rem;
+}
+
+.Mitad-seccion5{
+    margin-top: 10px;
+    display: flex;
+    gap: 80px;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+.Mitad-seccion6 h3{
+    color: #9932CC;
+    font-size: 1.5rem;
+}
+
+.Mitad-seccion6 p {
+    font-size: 1.2rem;
+}
+
+
+.Red-onion{
+    width: 100px;
+    border-radius: 10px;
+}
+
+.Cake-cream{
+    width: 100px;
+    height: 66px;
+    border-radius: 10px; 
+}
+
+.Caja-seccion5{
+    border: 1px solid;
+    padding: 50px 50px 0px 50px;
+    height: 370px;
+    margin-bottom: 20px;
+    border-radius: 100px 100px 20px 20px
+}
+
+.Caja-seccion5 button{
+    background-color: transparent;
+}
+
+.Caja-seccion5 button:hover{
+    background: linear-gradient(to left,gold,rgb(255, 248, 52));
+
+}
+
+
+.Caja-seccion5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #cdcdcdd2;
+    height: auto;
+    padding: 50px 50px 50px 50px;
+    border:5px solid rgb(236, 236, 236);
+    transition: 300ms;
+}
+
+
+.Caja-seccion5:hover{
+    background-color: whitesmoke;
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+.Caja-seccion5 button:hover{
+    background: linear-gradient(to left,gold,rgb(255, 248, 52));
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.Caja-seccion5 h5{
+    color: #9932CC;
+    font-size: 1.2rem;
+}
+
+.Down{
+    width: 450px;
+}
+
+
+.Elemento{
+    display: inline-block;
+    background-color: #A9A9A9;
+    margin: 10px;
+    border-radius: 30px;
+    padding: 5px;
+    transition: 300ms;
+}
+
+.Elemento:hover{
+    background-color: whitesmoke;
+    transform: scale(1);
+    cursor: pointer;
+
+}
+
+button{
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 10px;
+}
+    
+
+
+
+
+
+

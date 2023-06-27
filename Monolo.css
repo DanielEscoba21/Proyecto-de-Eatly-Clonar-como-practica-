@@ -1,0 +1,827 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+
+}
+
+
+
+/* Aqui ajustamos el color de las primeras 2(Header y Sección 1) */
+
+
+
+.Juntar{
+    background: radial-gradient(circle at bottom right,white,rgb(149, 0, 203)60%);
+}
+
+/* Aqui entramos en la edicion de el header */
+
+.Encabezado{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 100px 0px 100px;
+
+
+}
+
+.Navegacion ul{
+    display: flex;
+    gap:20px;
+    list-style-type: none;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.Logo{
+    display: flex;
+    place-items: center;
+}
+
+
+
+.Logo h1{
+    color: gold;
+}
+
+.Logotipe{
+    display: flex;
+    align-items: end;
+
+    padding: 5px;
+}
+
+.Logotipe img{
+    width: 15px;
+}
+
+span{
+    color: gold;
+}
+
+/* Aqui entramos a la seccion 1 */
+.Seccion-1{
+    margin-top:71px ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.Seccion-1 h1{
+    color: aliceblue;
+    font-size: 4rem;
+}
+
+.Seccion-1 p{
+    color: aliceblue;
+}
+
+.Seccion-1 h4{
+    color: aliceblue;
+}
+
+.Seccion-1-cont{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+
+    
+}
+
+.Opcion{
+    display: flex;
+    gap: 20px;
+    place-items: center;
+
+}
+
+
+.Img-video img{
+    width: 30px;
+    border-radius: 100px;
+}
+
+
+
+.Union{
+    display: flex;
+    place-items: center;
+    gap: 5px;
+
+}
+
+
+
+.Img-Seccion1{
+    place-items: center;
+    margin: 50px 0px 50px 0px;
+    position: relative;
+    overflow: visible;
+    border: 10px solid white;
+    width: 350px;
+    height: 400px;
+    bottom: -110px;
+    background: linear-gradient(to bottom right,rgb(141, 141, 225),rgb(141, 141, 225),rgb(102, 32, 194));
+    border-radius: 100px 100px 30px 30px;
+    /* Aqui va la sombra */
+    -webkit-box-shadow: 1px -1px 49px 0px rgba(94,0,94,1);
+    -moz-box-shadow: 1px -1px 49px 0px rgba(94,0,94,1);
+    box-shadow: 1px -1px 49px 0px rgba(94,0,94,1);
+    
+}
+
+.Chica-chocolatee{
+    position: absolute;
+    bottom: 0px;
+    right: -24px;
+    width: 370px;
+    height: 500px;
+}
+
+
+
+.Apoyo{
+    background-color: #DCDCDC;
+    display: flex;
+    gap: 50px;
+    padding: 40px 100px 40px 100px;
+    color: gray;
+}
+
+.Flex{
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.Flex-2{
+    display: flex;
+    gap: 10px;
+    place-self: center;
+}
+
+.Emenson{
+    border: 1px solid;
+    padding: 10px;
+    place-self:center;
+    border-radius: 50%;
+}
+
+
+.Herbalife{
+    border: 1px solid;
+    padding: 10px;
+    place-self:center;
+    border-radius: 50%;
+}
+
+.Little{
+    font-size: 0.7rem;
+    color: gray;
+}
+
+/* Aqui empieza la seccion 2 */
+
+.Comodin{
+    display: flex;
+    gap:10px;
+}
+
+.Comodin h4{
+    color: #9932cc;
+}
+
+.Corona{
+
+    place-self: center;
+
+}
+
+.Corona img{
+    width: 30px;
+    border-radius: 100px;
+}
+
+.Menu{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50px;
+    background: radial-gradient(circle at top left,rgba(186, 87, 236, 0.669),rgb(149, 0, 203)50%);
+    padding: 20px;
+    font-size: 1.5rem;
+    
+}
+
+.Menu h5{
+    color: aliceblue;
+}
+
+.Model{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+
+/* Aqui voy a insertar imagenes */
+.sombrero{
+    width: 30px;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+
+.Timbre{
+    width: 30px;
+    border-radius: 100px;
+    margin-top: 30px;
+
+}
+
+.Cubiertos{
+    width: 30px;
+    border-radius: 100px;
+    margin-top: 30px;
+
+}
+
+.Escudo-estrella{
+    border-radius: 100px;
+    width: 30px;
+    margin-top: 30px;
+
+}
+
+
+
+.Aling{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+
+
+.Seccion-2{
+    margin-top: 70px;
+    padding: 40px 100px 0px 100px;
+
+}
+/* Inicio de la imagen (Chica croasan) de la seccion 3 */
+
+.Seccion-3{
+    margin-top: 70px;
+    display: flex;
+    place-content: center;
+    gap: 250px;
+}
+
+.Caja-img{
+    display: flex;
+    justify-items: center;
+    align-items: end;
+    border: 20px solid white ;
+    border-radius: 100px 100px 20px 20px;
+    /* Aqui metemos las sombras */
+    -webkit-box-shadow: 1px -1px 49px 0px rgba(94,0,94,1);
+    -moz-box-shadow: 1px -1px 49px 0px rgba(94,0,94,1);
+    box-shadow: 1px -1px 49px 0px rgba(94,0,94,1);
+
+    /* Aqui metemos el color de dentro */
+    background: linear-gradient(to bottom right,rgb(141, 141, 225),rgb(141, 141, 225),rgb(102, 32, 194));
+}
+
+
+.Chica-croasann{
+    width: 400px;
+}
+
+/* Aqui ajustamos la parte derecha Donde entra las 4 interacciones */
+
+.Flex-Text{
+    display: flex;
+    gap: 10px;
+}
+
+.Flex-Text h4,h5{
+    color: #9932cc;
+    font-size: 1.5rem;
+}
+
+.Diamante{
+
+    padding: 10px;
+    place-self: center;
+
+}
+
+.Diamante img{
+    width: 30px;
+    border-radius: 100px;
+}
+
+.Parte-1{
+    display: flex;
+    gap: 30px;
+}
+
+.Parte-2{
+    display: flex;
+    gap: 30px;
+
+}
+
+.Inte-img{
+    padding: 10px;
+}
+
+.Corazon{
+    width: 30px;
+    border-radius: 100px;
+}
+
+.Tabla-img{
+    width: 30px;
+    border-radius: 100px;
+
+}
+
+.Escudo-check{
+    width: 30px;
+    border-radius: 100px;  
+}
+
+.Estrella{
+    width: 30px;
+    border-radius: 100px;  
+}
+
+
+
+.Caja-comodin{
+    display: flex;
+}
+
+.Interaccion-A{
+
+    margin: 10px 0px 10px 0px;
+    padding: 20px;
+    border-radius:50px;
+    background-color: #eeeeee;
+}
+
+.Interaccion-A h5{
+    color: #9932CC;
+}
+
+/* Aqui empezamos la seccion 4  Donde dice Get Started With Eatly */
+
+.Seccion-4{
+    margin-top: 70px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 50px;
+    margin  : 40px 100px 0px 100px;
+    background: radial-gradient(circle at top left,rgba(186, 87, 236, 0.669),rgb(149, 0, 203)50%)}
+
+.Seccion-4 h4{
+    color:aliceblue;
+    font-size: 3rem;
+}
+
+.Seccion-4 p {
+    font-size: 1.2rem;
+    color: #eeeeee;
+}
+
+.Seccion-4 div{
+    display: flex;
+    justify-content: center;
+}
+
+/* Aqui ponemos que se vea la bandera */
+
+.Bandera-img{
+    padding: 10px;
+}
+
+.Bandera{
+    width: 70px;
+    border-radius: 5px;
+}
+
+/* Agregando las imagenes de la seccion 4 */
+
+.libreta-img{
+    display: flex;
+    align-items: center;
+}
+
+.Libretaa{
+    width: 30px;
+    border-radius: 5px;
+}
+
+.Reloj-img{
+    display: flex;
+    align-items: center;  
+}
+
+.Relojj{
+    width: 30px;
+    border-radius: 5px;  
+}
+
+
+.Papelavion-img{
+    display: flex;
+    align-items: center;
+
+}
+
+.Papelavion{
+    width: 30px;
+    border-radius: 5px; 
+}
+
+.calendario-img{
+    display: flex;
+    align-items: center;
+}
+
+.calendarioo{
+    width: 30px;
+    border-radius: 5px;  
+}
+
+.Candado-img{
+    display: flex;
+    align-items: center;
+
+}
+
+.Candadoo{
+    width: 30px;
+    border-radius: 5px;  
+}
+
+.Down{
+    width: 380px;
+    height: 300px;
+    overflow: scroll;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #9932CC;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #ac60d2;
+}
+
+
+.Down li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #9932CC;
+    font-size: 1.3rem;
+}
+
+.Flexing{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Aqui empieza la mitad de la seccion 5 */
+
+.Seccion-5{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    align-content: center;
+    text-align: center;
+    margin: 70px 100px 0px 100px;
+
+}
+
+.Texto-Seccion5 h4,p{
+    font-size: 1.2rem;
+}
+
+
+.Flexing h4{
+    color: #9932CC;
+    font-size: 1.5rem;
+}
+
+.Mitad-seccion5{
+    margin-top: 10px;
+    display: flex;
+    gap: 100px;
+    align-items: end;
+}
+
+.Mitad-seccion6 h3{
+    color: #9932CC;
+    font-size: 1.5rem;
+}
+
+.Mitad-seccion6 p {
+    font-size: 1.2rem;
+}
+
+
+.Red-onion{
+    width: 100px;
+    border-radius: 10px;
+}
+
+.Cake-cream{
+    width: 100px;
+    height: 66px;
+    border-radius: 10px; 
+}
+
+.Caja-seccion5{
+    border: 1px solid;
+    padding: 50px 50px 0px 50px;
+    height: 370px;
+    margin-bottom: 20px;
+    border-radius: 100px 100px 20px 20px
+}
+
+.Caja-seccion5 h5{
+    color: #9932CC;
+    font-size: 1.2rem;
+}
+
+
+/* Aqui entramos en la seccion 6 */
+
+.Seccion-6{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+/* Aqui ajustamos la imagen de la seccion 6 */
+
+.Img-Seccion6{
+    width: 280px;
+    display: flex;
+    align-items: center;
+    border: 20px solid white ;
+    border-radius: 100px 100px 20px 20px;
+    /* Aqui metemos las sombras */
+    -webkit-box-shadow: 1px -1px 49px 0px rgba(94,0,94,1);
+    -moz-box-shadow: 1px -1px 49px 0px rgba(94,0,94,1);
+    box-shadow: 1px -1px 49px 0px rgba(94,0,94,1);
+
+    /* Aqui metemos el color de dentro */
+    background: linear-gradient(to bottom right,rgb(141, 141, 225),rgb(141, 141, 225),rgb(102, 32, 194));
+
+   }
+
+   .Chica-felizz{
+    width: 200px;
+   }
+
+
+.Union-juntar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Union-juntar h3{
+    color: #9932CC;
+}
+
+/* Aqui ajustamos las imagenes de la seccion 6 */
+.archivo-img{
+    display: flex;
+    align-items: center;
+}
+
+.Sobre{
+    width: 30px;
+    border-radius: 5px;
+}
+
+.Nube-img{
+    display: flex;
+    align-items: center;
+}
+
+.Nubee{
+    width: 30px;
+    border-radius: 5px;
+}
+
+.Comodin-flex{
+    display: flex;
+}
+
+/* Aqui empezamos el footer */
+
+footer{
+    margin-top: 70px;
+    padding: 0px 100px 0px 100px;
+    font-size: 1.2rem;
+}
+
+.Footer-img{
+display: flex;
+align-items: center;
+}
+
+.Footer-img img{
+    width: 15px;
+}
+    
+
+.Comodin-flexfooter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Comodin-flexfooter h3{
+    color: #9932CC;
+}
+
+.Pie-pagina{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Paginafinal{
+    display: flex;
+    gap: 15px;
+
+}
+
+.Paginafinal h3{
+    color: #9932CC;
+}
+
+.Paginafinal li{
+    list-style: none;
+    padding: 5px;
+    
+}
+
+.flexin{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexin div{
+    display: flex;
+    gap: 20px;
+}
+
+/* Aqui cambiamos los botones */
+
+
+
+/* Dispositivos moviles */
+@media (max-width:1103px) {
+
+
+
+
+    /* Aqui ajustamos el menu de navegación */
+
+
+    .Navegacion ul{
+        display: block;
+        padding-inline-start: 0px;
+        }
+
+    .Menu{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    
+
+
+    /* Aqui ajustamos tipo responcive la seccion-3 */
+
+    .Seccion-3{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column-reverse;
+        gap: 50px;
+        padding: 40px 100px 0px 100px;
+   }
+
+
+   .Caja-img{
+    display: block;
+    width: 300px;
+    overflow: visible;
+   }
+
+   .Caja-img img{
+    width: 300px;
+    position: relative;
+    right: 17px;
+   }
+
+   .Seccion-5{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    gap: 75px;
+   }
+
+   /* Mitad de la seccion 5 */
+   .Mitad-seccion5{
+    display: block;
+    gap: 0px;
+   }
+
+   .Seccion-6{
+    flex-wrap: wrap;
+    gap: 50px;
+   }
+
+   /* Img seccion 6 */
+
+
+   .Img-Seccion6{
+    width: 280px;
+    display: flex;
+    align-items: center;
+    border: 20px solid white ;
+    border-radius: 100px 100px 20px 20px;
+    /* Aqui metemos las sombras */
+    -webkit-box-shadow: 1px -1px 49px 0px rgba(94,0,94,1);
+    -moz-box-shadow: 1px -1px 49px 0px rgba(94,0,94,1);
+    box-shadow: 1px -1px 49px 0px rgba(94,0,94,1);
+
+    /* Aqui metemos el color de dentro */
+    background: linear-gradient(to bottom right,rgb(141, 141, 225),rgb(141, 141, 225),rgb(102, 32, 194));
+
+   }
+
+   .Chica-felizz{
+    width: 200px;
+   }
+
+   .Pie-pagina{
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+   .Paginafinal{
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+   .flexin{
+    flex-wrap: wrap;
+   }
+
+
+   @media (max-width:710px) {
+    /* Aqui ajustamos tipo responcive la seccion-1 */
+
+    .Img-Seccion1{
+        position: relative;
+        width: 300px;
+        bottom: 0px;
+
+    }
+
+    .Chica-chocolatee{
+        width: 300px;
+        bottom: 0px;
+    }
+
+    
+   }
+}

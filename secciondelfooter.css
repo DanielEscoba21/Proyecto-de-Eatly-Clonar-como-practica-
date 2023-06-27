@@ -1,0 +1,72 @@
+footer{
+    margin-top: 70px;
+    padding: 0px 100px 0px 100px;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.Footer-img{
+display: flex;
+align-items: center;
+}
+
+.Footer-img img{
+    width: 15px;
+}
+    
+
+.Comodin-flexfooter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Comodin-flexfooter h3{
+    color: #9932CC;
+}
+
+.Pie-pagina{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Paginafinal{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.Paginafinal h3{
+    color: #9932CC;
+}
+
+.Paginafinal li{
+    list-style: none;
+    padding: 5px;
+    
+}
+
+.flexin{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flexin div{
+    display: flex;
+    gap: 20px;
+}
+
+/* Aqui cambiamos los botones */
+.Paginafinal ul li{
+    transition: 300ms;
+}
+
+.Paginafinal ul li:hover{
+    color: gold;
+    transform:scale(1.1);
+    cursor: pointer;
+}

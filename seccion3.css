@@ -1,0 +1,112 @@
+.Seccion-3{
+    margin-top: 70px;
+    display: flex;
+    place-content: center;
+    gap: 250px;
+    flex-wrap: wrap;
+}
+
+.Caja-img{
+    display: flex;
+    justify-items: center;
+    align-items: end;
+    border: 20px solid white ;
+    border-radius: 100px 100px 20px 20px;
+    /* Aqui metemos las sombras */
+    -webkit-box-shadow: 1px -1px 49px 0px rgba(94,0,94,1);
+    -moz-box-shadow: 1px -1px 49px 0px rgba(94,0,94,1);
+    box-shadow: 1px -1px 49px 0px rgba(94,0,94,1);
+
+    /* Aqui metemos el color de dentro */
+    background: linear-gradient(to bottom right,rgb(141, 141, 225),rgb(141, 141, 225),rgb(102, 32, 194));
+}
+
+
+.Chica-croasann{
+    width: 400px;
+}
+
+/* Aqui ajustamos la parte derecha Donde entra las 4 interacciones */
+
+.Flex-Text{
+    display: flex;
+    gap: 10px;
+}
+
+.Flex-Text h4,h5{
+    color: #9932cc;
+    font-size: 1.5rem;
+}
+
+
+
+
+.Diamante{
+    place-self: center;
+    width: 30px;
+    border-radius: 100px;
+}
+
+.Parte-1{
+    display: flex;
+    gap: 30px;
+}
+
+.Parte-2{
+    display: flex;
+    gap: 30px;
+
+}
+
+.Inte-img{
+    padding: 10px;
+}
+
+.Corazon{
+    width: 30px;
+    border-radius: 100px;
+}
+
+.Tabla-img{
+    width: 30px;
+    border-radius: 100px;
+
+}
+
+.Escudo-check{
+    width: 30px;
+    border-radius: 100px;  
+}
+
+.Estrella{
+    width: 30px;
+    border-radius: 100px;  
+}
+
+
+
+.Caja-comodin{
+    display: flex;
+}
+
+.Interaccion-A{
+
+    margin: 10px 0px 10px 0px;
+    padding: 20px;
+    border-radius:50px;
+    background-color: #eeeeee;
+    transition: 300ms;
+}
+
+
+.Interaccion-A:hover{
+    transform: scale(0.9);
+    background-color: rgb(252, 255, 255);
+    border: 5px solid rgb(184, 184, 184);
+    cursor: pointer;
+}
+
+
+.Interaccion-A h5{
+    color: #9932CC;
+}

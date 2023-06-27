@@ -1,0 +1,1136 @@
+@media screen and (min-width:911px) {
+    .Seccion-3{
+        gap: 200px;
+    }
+
+    .Seccion-5{
+        gap: 200px;
+    }
+
+    .Seccion-6{
+        gap: 200px;
+    }
+}
+
+@media screen and (max-width:821px) {
+    /* Seccion 3 */
+    .Seccion-3{
+        gap: 100px;
+    }
+
+    /* Seccion 5 */
+
+    .Seccion-5{
+        gap: 100px;
+    }
+
+    .Mitad-seccion5{
+        flex-wrap: nowrap;
+    }
+
+    /* Seccion 6 */
+
+    .Seccion-6{
+        gap: 100px;
+    }
+
+    .Nubee{
+        width: 46px;
+    }
+
+    .Junt{
+        border: 5px solid rgb(233, 233, 233);
+        border-radius: 40px;
+        margin: 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        background-color: #cdcdcdd2;
+    }
+}
+
+@media screen and (max-width:415px) {
+    /* Aqui contiene todo el body en un main */
+
+    
+        br{
+            display: none;
+        }
+    
+        /* Encabezado */
+    
+        .Encabezado{
+            justify-content: center;
+            padding: 0px;
+        }
+    
+        /* Seccion 1 */
+    
+        .Seccion-1 h1{
+            font-size: 4rem;
+        }
+    
+        .Seccion-1-cont div{
+            margin: 0px 0px 0px 10px;
+        }
+    
+    
+    
+        
+        .Img-Seccion1{
+            width: 250px;
+            height: 330px;
+            bottom: 23px;
+            
+        }
+    
+        .Apoyo{
+            display: flex;
+            align-items: center;
+            padding: 0px;
+        }
+    
+        .Flex{
+            margin-top:0px ;
+        }
+        
+        .Apoyo h5{
+            font-size: 1.1rem;
+        }
+        /* Seccion 2 */
+    
+    
+    
+        .Seccion-2{
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+        }
+    
+        .Comodin{
+            display: flex;
+            flex-direction: column;
+        }
+    
+    
+    
+        .Menu{
+            width: 260px;
+        }
+    
+        .Model p{
+            color: rgb(197, 197, 197);
+        }
+    
+        .Chica-chocolatee{
+            width: 280px;
+            height: 350px;
+    
+        }
+    
+    
+    
+        /* Seccion 3 */
+
+        .Seccion-3{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Seccion-3{
+            position: relative;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            margin: 0px 0px 0px 0px;
+            padding: 70px 0px 0px 0px;
+            gap: 100px
+        }
+    
+        .Flex-Text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 0px;
+            text-align: center;
+        }
+
+        .Flex-Text h4{
+            font-size: 1rem;
+        }
+
+        .Flex-Text p{
+            font-size: 0.8rem;
+        }
+    
+        .Interaccion div{
+            text-align: center;
+            width: 260px;
+            position: relative;
+        }
+    
+    
+        .Interaccion A{
+            position: relative;
+        }
+    
+        .Inte-img{
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            width: 50px;
+        }
+
+
+        .Caja-img{
+            position: relative;
+            width: 235px;
+            height: 290px;
+        }
+
+        .Chica-croasann{
+            position: absolute;
+            width: 240px;
+            right: -28px;
+            top: 41px;
+        }
+    
+    
+        .Parte-1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .Parte-2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    
+    
+        /* seccion 4 */
+        .Seccion-4{
+            margin: 70px 10px 0px 10px;
+        }
+    
+        .Seccion-4 div{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    
+    
+        
+        .Seccion-4  h4,p{
+            font-size: 1rem;
+        }
+    
+        .Down{
+            width: 217px;
+        }
+        
+        .Down ul{
+            padding-inline-start: 0px;
+        }
+    
+    
+    
+        .Down h5{
+            font-size: 0.8rem;
+        }
+        
+        .Flexing{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        /* Seccion 5 */
+        .Seccion-5{
+            gap: 100px;
+        }
+    
+        .Mitad-seccion5{
+            flex-wrap: wrap;
+        }
+    
+        .Caja-seccion5{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #cdcdcdd2;
+            height: auto;
+            padding: 50px 50px 50px 50px;
+            border:5px solid rgb(236, 236, 236);
+        }
+    
+    
+        /* Aqui ajustamos las imagenes de la seccion 5 */
+    
+    
+        .Modelo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 180px;
+            height: 220px;
+            border-radius: 100px 100px 30px 30px;
+            background-color: #5369aa;
+            border:5px solid white;
+            }
+        
+    
+    
+        .Red-onion{
+            border-radius:100%;
+            width: 110px;
+            height: 110px;
+        }
+        
+        .Cake-cream{
+            border-radius:100%;
+            width: 110px;
+            height: 110px;
+        }
+    
+        .Caja-seccion5 h5{
+            font-size: 1rem;
+        }
+    
+    
+        /* Aqui la mitad de la seccion 5*/
+    
+        .Flexing{
+            gap: 0px;
+        }
+    
+    
+        .Down{
+            margin: 40px;
+            padding: 0px;
+            margin-block-start: 0px;
+             margin-block-end: 0px;
+        }
+    
+    
+    
+        /* Seccion 6 */
+
+        .Seccion-6{
+            gap: 100px;
+        }
+    
+        .Img-Seccion6{
+            width: 203px;
+        }
+    
+        .Chica-felizz{
+            position: relative;
+            right: 24px;
+        }
+    
+    
+        /* Mitad seccion 6 */
+    
+        .Mitad-seccion6{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .Bordear{
+            margin: 27px;
+        }
+    
+    
+    
+        .Junt{
+            border: 5px solid rgb(233, 233, 233);
+            border-radius: 40px;
+            margin: 20px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            background-color: #cdcdcdd2;
+        }
+    
+        .Nubee{
+            width: 46px;
+        }
+    
+    
+    }
+
+@media screen and (max-width:376px) {
+    /* Aqui contiene todo el body en un main */
+    
+    
+    
+    br{
+        display: none;
+    }
+    
+        /* Encabezado */
+    
+        .Encabezado{
+            justify-content: center;
+            padding: 0px;
+        }
+    
+        /* Seccion 1 */
+    
+        .Seccion-1 h1{
+            font-size: 4rem;
+        }
+    
+        .Seccion-1-cont div{
+            margin: 0px 0px 0px 10px;
+        }
+    
+    
+    
+        
+        .Img-Seccion1{
+            width: 250px;
+            height: 330px;
+            bottom: 23px;
+            
+        }
+    
+        .Apoyo{
+            display: flex;
+            align-items: center;
+            padding: 0px;
+        }
+    
+        .Flex{
+            margin-top:0px ;
+        }
+        
+        .Apoyo h5{
+            font-size: 1.1rem;
+        }
+        /* Seccion 2 */
+    
+    
+    
+        .Seccion-2{
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+        }
+    
+        .Comodin{
+            display: flex;
+            flex-direction: column;
+        }
+    
+    
+    
+        .Menu{
+            width: 260px;
+        }
+    
+        .Model p{
+            color: rgb(197, 197, 197);
+        }
+    
+        .Chica-chocolatee{
+            width: 280px;
+            height: 350px;
+    
+        }
+    
+    
+    
+        /* Seccion 3 */
+
+        .Seccion-3{
+            position: relative;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            margin: 0px 0px 0px 0px;
+            padding: 70px 0px 0px 0px;
+            gap: 100px
+        }
+    
+        .Flex-Text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 0px;
+            text-align: center;
+        }
+    
+        .Interaccion div{
+            text-align: center;
+            width: 260px;
+            position: relative;
+        }
+
+        .Interaccion p{
+            font-size: 0.8rem;
+        }
+    
+
+        .Caja-img{
+            position: relative;
+            width: 235px;
+            height: 290px;
+        }
+
+        .Chica-croasann{
+            position: absolute;
+            width: 240px;
+            right: -28px;
+            top: 41px;
+        }
+    
+        
+
+        
+        .Interaccion-A h5{
+            font-size: 1rem;
+        }
+        .Inte-img{
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            width: 50px;
+        }
+    
+    
+        .Parte-1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .Parte-2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    
+    
+        /* seccion 4 */
+        .Seccion-4{
+            margin: 70px 10px 0px 10px;
+        }
+    
+        .Seccion-4 div{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    
+    
+        
+        .Seccion-4  h4,p{
+            font-size: 1rem;
+        }
+    
+        .Down{
+            width: 217px;
+        }
+        
+        .Down ul{
+            padding-inline-start: 0px;
+        }
+    
+    
+    
+        .Down h5{
+            font-size: 0.8rem;
+        }
+        
+        .Flexing{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        /* Seccion 5 */
+
+
+        .Mitad-seccion5{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+    
+        .Caja-seccion5{
+            gap: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #cdcdcdd2;
+            height: auto;
+            padding: 50px 50px 50px 50px;
+            border:5px solid rgb(236, 236, 236);
+        }
+    
+    
+        /* Aqui ajustamos las imagenes de la seccion 5 */
+    
+    
+        .Modelo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 180px;
+            height: 220px;
+            border-radius: 100px 100px 30px 30px;
+            background-color: #5369aa;
+            border:5px solid white;
+            }
+        
+    
+    
+        .Red-onion{
+            border-radius:100%;
+            width: 110px;
+            height: 110px;
+        }
+        
+        .Cake-cream{
+            border-radius:100%;
+            width: 110px;
+            height: 110px;
+        }
+    
+        .Caja-seccion5 h5{
+            font-size: 1rem;
+        }
+    
+    
+        /* Aqui la mitad de la seccion 5*/
+    
+        .Flexing{
+            gap: 0px;
+        }
+    
+    
+        .Down{
+            margin: 40px;
+            padding: 0px;
+            margin-block-start: 0px;
+             margin-block-end: 0px;
+        }
+    
+    
+    
+        /* Seccion 6 */
+        .Seccion-6{
+            gap: 100px;
+        }
+    
+        .Img-Seccion6{
+            width: 203px;
+        }
+    
+        .Chica-felizz{
+            position: relative;
+            right: 24px;
+        }
+    
+    
+        /* Mitad seccion 6 */
+    
+        .Mitad-seccion6{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .Bordear{
+            margin: 27px;
+        }
+    
+    
+    
+        .Junt{
+            border: 5px solid rgb(233, 233, 233);
+            border-radius: 40px;
+            margin: 20px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            background-color: #cdcdcdd2;
+        }
+    
+        .Nubee{
+            width: 46px;
+        }
+    
+    
+}
+
+@media screen and (max-width:360px) {
+/* Aqui contiene todo el body en un main */
+
+
+
+    br{
+        display: none;
+    }
+
+    /* Encabezado */
+
+    .Encabezado{
+        justify-content: center;
+        padding: 0px;
+    }
+
+    /* Seccion 1 */
+
+    .Seccion-1 h1{
+        font-size: 4rem;
+    }
+
+    .Seccion-1-cont div{
+        margin: 0px 0px 0px 10px;
+    }
+
+
+
+    
+    .Img-Seccion1{
+        width: 250px;
+        height: 330px;
+        bottom: 23px;
+        
+    }
+
+    .Apoyo{
+        display: flex;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .Flex{
+        margin-top:0px ;
+    }
+    
+    .Apoyo h5{
+        font-size: 1.1rem;
+    }
+    /* Seccion 2 */
+
+
+
+    .Seccion-2{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .Comodin{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .Menu{
+        width: 260px;
+    }
+
+    .Model p{
+        color: rgb(197, 197, 197);
+    }
+
+    .Chica-chocolatee{
+        width: 280px;
+        height: 350px;
+
+    }
+
+
+
+    /* Seccion 3 */
+
+    .Seccion-3{
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px 0px 0px;
+        padding: 70px 0px 0px 0px;
+        gap: 130px
+    }
+
+    .Flex-Text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+        text-align: center;
+    }
+
+    .Interaccion div{
+        text-align: center;
+        width: 260px;
+        position: relative;
+    }
+
+
+    .Interaccion A{
+        position: relative;
+    }
+
+    .Inte-img{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        width: 50px;
+    }
+
+
+    .Parte-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Parte-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .Caja-img{
+        position: relative;
+        width: 235px;
+        height: 290px;
+    }
+
+    .Chica-croasann{
+        position: absolute;
+        width: 240px;
+        right: -28px;
+        top: 41px;
+    }
+
+
+    /* seccion 4 */
+    .Seccion-4{
+        margin: 70px 10px 0px 10px;
+    }
+
+    .Seccion-4 div{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+
+
+    
+    .Seccion-4  h4,p{
+        font-size: 1rem;
+    }
+
+    .Down{
+        width: 217px;
+    }
+    
+    .Down ul{
+        padding-inline-start: 0px;
+    }
+
+
+
+    .Down h5{
+        font-size: 0.8rem;
+    }
+    
+    .Flexing{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Seccion 5 */
+    .Seccion-5{
+        gap: 100px;
+    }
+
+
+    .Caja-seccion5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #cdcdcdd2;
+        height: auto;
+        padding: 50px 50px 50px 50px;
+        border:5px solid rgb(236, 236, 236);
+    }
+
+
+    /* Aqui ajustamos las imagenes de la seccion 5 */
+
+
+    .Modelo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 180px;
+        height: 220px;
+        border-radius: 100px 100px 30px 30px;
+        background-color: #5369aa;
+        border:5px solid white;
+        }
+    
+
+
+    .Red-onion{
+        border-radius:100%;
+        width: 110px;
+        height: 110px;
+    }
+    
+    .Cake-cream{
+        border-radius:100%;
+        width: 110px;
+        height: 110px;
+    }
+
+    .Caja-seccion5 h5{
+        font-size: 1rem;
+    }
+
+
+    /* Aqui la mitad de la seccion 5*/
+
+    .Flexing{
+        gap: 0px;
+    }
+
+
+    .Down{
+        margin: 40px;
+        padding: 0px;
+        margin-block-start: 0px;
+         margin-block-end: 0px;
+    }
+
+
+
+    /* Seccion 6 */
+
+    .Img-Seccion6{
+        width: 203px;
+    }
+
+    .Chica-felizz{
+        position: relative;
+        right: 24px;
+    }
+
+
+    /* Mitad seccion 6 */
+
+    .Seccion-6{
+        gap: 100px;
+    }
+
+    .Mitad-seccion6{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Bordear{
+        margin: 27px;
+    }
+
+
+
+    .Junt{
+        border: 5px solid rgb(233, 233, 233);
+        border-radius: 40px;
+        margin: 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        background-color: #cdcdcdd2;
+    }
+
+    .Nubee{
+        width: 46px;
+    }
+
+
+}
+
+
+@media screen and (max-width:350px) {
+    /* seccion 1 */
+
+
+
+    .Seccion-1-cont{
+        width: 100%;
+    }
+
+    .Seccion-1-cont .Opcion{
+        margin: 0px 0px 0px 0px;
+
+    }
+
+    .Seccion-1-cont .Union{
+        margin: 0px 0px 0px 0px;
+
+    }
+
+    .Seccion-1-cont .Img-video{
+        margin: 0px 0px 0px 0px;
+
+    }
+
+    .Seccion-1-cont h1{
+        font-size: 2rem;
+    }
+
+    .Seccion-1-cont p{
+        font-size: 1rem;
+    }
+
+    .Opcion{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+
+    }
+
+    .Union{
+        margin: 0px 0px 0px 0px;
+    }
+
+    .Img-video{
+        margin: 0px;
+    }
+
+    .Img-Seccion1{
+        width: 200px;
+        height: 250px;
+    }
+
+    .Chica-chocolatee{
+        width: 230px;
+        height: 250px;
+    }
+
+
+    /* Parte gris seccion 1 */
+
+    .Apoyo{
+        gap: 5px;
+
+    }
+
+    .Apoyo h5{
+        font-size: 0.7rem;
+    }
+
+    /* Aqui entra la seccion 2 */
+
+
+    .Seccion-2{
+        padding: 40px 50px 0px 50px;
+    }
+
+    .Menu{
+        width: 210px;
+    }
+
+    /* Seccion 3 */
+
+    .Seccion-3{
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px 0px 0px;
+        padding: 70px 0px 0px 0px;
+        gap: 130px;
+    }
+
+
+
+    .Caja-img{
+        width: 200px;
+        height: 260px;
+        position: relative;
+    }
+
+    .Chica-croasann{
+        position: absolute;
+        width: 177px;
+        height: 265px;
+        right: -12px;
+        top: 9px;
+    }
+
+    /* Seccion 4 */
+
+    .Seccion-4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .Seccion-4 p{
+        font-size: 0.8rem;
+    }
+
+
+
+
+
+
+    
+}
