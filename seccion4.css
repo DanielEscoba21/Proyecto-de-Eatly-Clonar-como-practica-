@@ -102,7 +102,7 @@
 }
 
 ::-webkit-scrollbar{
-    width: 15px;
+    width: 5px;
 }
 ::-webkit-scrollbar-thumb{
     background-color: #9932CC;

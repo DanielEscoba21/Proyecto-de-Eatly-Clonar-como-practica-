@@ -13,10 +13,83 @@
 }
 
 @media screen and (max-width:821px) {
+    /* Header bar*/
+
+    #Header-bars{
+        display: block;
+    }
+
+    .Navegacion{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 2rem;
+        background-color: #5369aa;
+        height: 1000px;
+        box-shadow: 0 0 0 1000vmax rgb(0, 0,0,.5);
+        opacity: 0;
+        visibility: hidden;
+        position: fixed;
+    }
+
+
+    .Navegacion.visible{
+        opacity: 1;
+        visibility:visible;
+    }
+
+    .Navegacion button{
+        display:block;
+    }
+
+    .Navegacion ul{
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .Ocultar{
+        display: none;
+    }
+
+
+    .Apoyo{
+        display: flex;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .Flex{
+        margin-top:0px ;
+    }
+    
+    .Apoyo h5{
+        font-size: 1.1rem;
+    }
+
+    /* Seccion1 */
+
+    .Chica-chocolatee{
+        position: static;
+        bottom: 0px;
+        right: 0px;
+        width: 330px;
+        height: 380px;
+    }
+
+    .Img-Seccion1{
+        position: static;
+    }
+
+
+
     /* Seccion 3 */
     .Seccion-3{
         gap: 100px;
     }
+
 
     /* Seccion 5 */
 
@@ -25,7 +98,8 @@
     }
 
     .Mitad-seccion5{
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     /* Seccion 6 */
@@ -49,7 +123,7 @@
     }
 }
 
-@media screen and (max-width:415px) {
+@media screen and (max-width:450px) {
     /* Aqui contiene todo el body en un main */
 
     
@@ -61,10 +135,19 @@
     
         .Encabezado{
             justify-content: center;
-            padding: 0px;
         }
     
         /* Seccion 1 */
+        .Chica-chocolatee{
+            position: static;
+            bottom: 0px;
+            right: 0px;
+        }
+    
+        .Img-Seccion1{
+            position: static;
+        }
+    
     
         .Seccion-1 h1{
             font-size: 4rem;
@@ -125,8 +208,8 @@
         }
     
         .Chica-chocolatee{
-            width: 280px;
-            height: 350px;
+            width: 235px;
+            height: 310px;
     
         }
     
@@ -143,7 +226,6 @@
         }
 
         .Seccion-3{
-            position: relative;
             display: flex;
             flex-direction: column-reverse;
             justify-content: center;
@@ -173,13 +255,10 @@
         .Interaccion div{
             text-align: center;
             width: 260px;
-            position: relative;
+
         }
     
-    
-        .Interaccion A{
-            position: relative;
-        }
+
     
         .Inte-img{
             display: flex;
@@ -190,13 +269,11 @@
 
 
         .Caja-img{
-            position: relative;
             width: 235px;
             height: 290px;
         }
 
         .Chica-croasann{
-            position: absolute;
             width: 240px;
             right: -28px;
             top: 41px;
@@ -224,7 +301,6 @@
         }
     
         .Seccion-4 div{
-            position: relative;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -339,7 +415,6 @@
         }
     
         .Chica-felizz{
-            position: relative;
             right: 24px;
         }
     
@@ -389,7 +464,6 @@
     
         .Encabezado{
             justify-content: center;
-            padding: 0px;
         }
     
         /* Seccion 1 */
@@ -402,6 +476,12 @@
             margin: 0px 0px 0px 10px;
         }
     
+        .Chica-chocolatee{
+            width: 235px;
+            height: 310px;
+        }
+
+      
     
     
         
@@ -452,18 +532,12 @@
             color: rgb(197, 197, 197);
         }
     
-        .Chica-chocolatee{
-            width: 280px;
-            height: 350px;
-    
-        }
     
     
     
         /* Seccion 3 */
 
         .Seccion-3{
-            position: relative;
             display: flex;
             flex-direction: column-reverse;
             justify-content: center;
@@ -485,7 +559,6 @@
         .Interaccion div{
             text-align: center;
             width: 260px;
-            position: relative;
         }
 
         .Interaccion p{
@@ -494,13 +567,11 @@
     
 
         .Caja-img{
-            position: relative;
             width: 235px;
             height: 290px;
         }
 
         .Chica-croasann{
-            position: absolute;
             width: 240px;
             right: -28px;
             top: 41px;
@@ -541,7 +612,6 @@
         }
     
         .Seccion-4 div{
-            position: relative;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -656,7 +726,6 @@
         }
     
         .Chica-felizz{
-            position: relative;
             right: 24px;
         }
     
@@ -696,18 +765,16 @@
 @media screen and (max-width:360px) {
 /* Aqui contiene todo el body en un main */
 
-
+/* Encabezado */
+    .Encabezado{
+    justify-content: center;
+    }
 
     br{
         display: none;
     }
 
-    /* Encabezado */
 
-    .Encabezado{
-        justify-content: center;
-        padding: 0px;
-    }
 
     /* Seccion 1 */
 
@@ -720,6 +787,10 @@
     }
 
 
+    .Chica-chocolatee{
+        width: 235px;
+        height: 310px;
+    }
 
     
     .Img-Seccion1{
@@ -769,18 +840,11 @@
         color: rgb(197, 197, 197);
     }
 
-    .Chica-chocolatee{
-        width: 280px;
-        height: 350px;
-
-    }
-
 
 
     /* Seccion 3 */
 
     .Seccion-3{
-        position: relative;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
@@ -802,13 +866,9 @@
     .Interaccion div{
         text-align: center;
         width: 260px;
-        position: relative;
+
     }
 
-
-    .Interaccion A{
-        position: relative;
-    }
 
     .Inte-img{
         display: flex;
@@ -834,13 +894,12 @@
 
 
     .Caja-img{
-        position: relative;
+
         width: 235px;
         height: 290px;
     }
 
     .Chica-croasann{
-        position: absolute;
         width: 240px;
         right: -28px;
         top: 41px;
@@ -853,7 +912,6 @@
     }
 
     .Seccion-4 div{
-        position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -961,7 +1019,6 @@
     }
 
     .Chica-felizz{
-        position: relative;
         right: 24px;
     }
 
@@ -1005,6 +1062,9 @@
 
 @media screen and (max-width:350px) {
     /* seccion 1 */
+    .Encabezado{
+        padding: 0px;
+    }
 
 
 
@@ -1057,9 +1117,10 @@
     }
 
     .Chica-chocolatee{
-        width: 230px;
-        height: 250px;
+        width: 185px;
+        height: 230px;
     }
+
 
 
     /* Parte gris seccion 1 */
@@ -1087,7 +1148,6 @@
     /* Seccion 3 */
 
     .Seccion-3{
-        position: relative;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
@@ -1102,11 +1162,9 @@
     .Caja-img{
         width: 200px;
         height: 260px;
-        position: relative;
     }
 
     .Chica-croasann{
-        position: absolute;
         width: 177px;
         height: 265px;
         right: -12px;
@@ -1126,11 +1184,5 @@
     .Seccion-4 p{
         font-size: 0.8rem;
     }
-
-
-
-
-
-
-    
+  
 }

@@ -19,14 +19,7 @@ body{
 /* Aqui entramos en la edicion de el header */
 
 .Encabezado{
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
     padding: 0px 100px 0px 100px;
-
-
 }
 
 .Navegacion ul{
@@ -104,3 +97,22 @@ button:hover{
 button:hover{
     cursor: pointer;
 }
+
+
+/* Aqui miramos el Menu para un futuro resposive */
+
+.Header-Menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Header-bars{
+    display: none;
+}
+
+
+.Navegacion button{
+    display: none;
+}
+

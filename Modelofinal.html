@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modelo Final</title>
+    <!-- Para la fuente -->
     <link rel="stylesheet" href="Encabezado.css" />
     <link rel="stylesheet" href="seccion1.css" />
     <link rel="stylesheet" href="seccion2.css" />
@@ -18,26 +19,38 @@
   <body>
     <main class="Cont-all">
       <div class="Juntar">
-        <!-- Encabezado -->
         <header class="Encabezado">
-          <div class="Logo">
-            <div class="Logotipe">
-              <img src="./Recursos/Logo.JPG" alt="" />
+          <nav class="Header-Menu">
+            <!-- Encabezado -->
+            <div class="Logo">
+              <div class="Logotipe">
+                <img src="./Recursos/Logo.JPG" alt="" />
+              </div>
+              <h1>Eatly</h1>
             </div>
-            <h1>Eatly</h1>
-          </div>
-
-          <nav class="Navegacion">
-            <ul>
-              <li>programs</li>
-              <li>Services</li>
-              <li>News</li>
-              <li>About Us</li>
-            </ul>
+            <!-- Menu responsive -->
+            <div id="Header-bars">
+              <button id="abrir">Abrir</button>
+            </div>
+            <!-- Navegacion -->
+            <nav class="Navegacion" id="navegar">
+              <button id="cerrar">Cerrar</button>
+              <ul>
+                <li>programs</li>
+                <li>Services</li>
+                <li>News</li>
+                <li>About Us</li>
+                <div>
+                  <button>Let's Talk</button>
+                </div>
+              </ul>
+            </nav>
+            <!-- Boton -->
+            <div class="Ocultar">
+              <button>Let's Talk</button>
+            </div>
           </nav>
-          <div>
-            <button>Let's Talk</button>
-          </div>
+          <script src="./Codigo.js"></script>
         </header>
 
         <!-- Primera caja grande se llamara section  -->
